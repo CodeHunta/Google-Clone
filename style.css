@@ -10,7 +10,7 @@ nav{
     margin-left: auto;
     padding: 1em;
 }
-a{
+nav a{
     color: black;
     text-decoration: none;
 }
@@ -25,10 +25,10 @@ main{
     margin: 6.9em auto;
     text-align: center;
 }
-input{
+main input{
     width: 80%;
-    padding: 1em;
-    border-radius: 30%;
+    height: 34px;
+    border-radius: 30px;
     border: 1px solid grey;
 }
 .btnContainer{
@@ -37,6 +37,17 @@ input{
 .btnContainer button{
     padding: 1em;
     border: none;
+    transition: all 0s ease 0s;
+}
+.linkLabels{
+    padding: 2em;
+}
+.linkLabels a{
+    padding: 1em;
+    color: blue;
+    margin-right: 1em;
+    margin-top: 4px;
+    text-decoration: none;
 }
 footer{
     background-color: rgb(240, 240, 240);
